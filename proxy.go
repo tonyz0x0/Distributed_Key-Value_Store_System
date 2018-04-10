@@ -165,7 +165,6 @@ func initRing() *hashring.HashRing {
 	memcacheServers := []string{
 		"http://localhost:9000",
 		"http://localhost:9001",
-		"http://localhost:9002",
 	}
 	return hashring.New(memcacheServers)
 }
